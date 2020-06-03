@@ -1,2 +1,3 @@
 # PythonLearning
-The journey to learn Python as my first programming language.
+Here I'll practically 'stash' all the things I made until the date.
+Hope you find something useful if you're searching for it :)
