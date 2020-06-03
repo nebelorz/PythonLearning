@@ -6,7 +6,7 @@ Hope you find something useful if you're searching for it :)
 ## Path I followed:
 
 
-• [COURSE] PY4E
+1- [] [COURSE] PY4E
 
 
-• [EX] pynative.com*
+2- [] [EX] pynative.com*
