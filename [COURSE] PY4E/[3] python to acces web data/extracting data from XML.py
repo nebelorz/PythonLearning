@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 url = input('Enter URL:')
 if len(url) < 1:
-    url = urllib.request.urlopen('http://py4e-data.dr-chuck.net/comments_501607.xml').read()
+    url = urllib.request.urlopen('http://py4e-data.dr-chuck.net/comments_551281.xml').read()
 else:
     url = urllib.request.urlopen('url').read()
 
