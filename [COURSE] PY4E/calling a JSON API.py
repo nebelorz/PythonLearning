@@ -15,9 +15,12 @@ ctx.verify_mode = ssl.CERT_NONE
 #API KEY, address and URL
 api_key = 42
 address = input('Enter address:')
+if len(address) < 1:
+    address = 'University of Washington - Bothell'
+
 serviceurl = 'http://py4e-data.dr-chuck.net/json?'
 
-#Making the request (address and key)
+#Making the request
 request = {'address': address, 'key': api_key}
 final_url = serviceurl + urllib.parse.urlencode(request)
 print(final_url) ## http://py4e-data.dr-chuck.net/json?address=&key=42
@@ -33,6 +36,6 @@ print('This URL contains:', data)
 #Loads the data as a JSON file
 json_file = json.loads(data)
 
-#Extract the data I want from the JSON file
-place_id = json_file['results'][0]['place_id'] #Get in the list 'results' and check the 'place_id value
-print('Place ID:', place_id)
+#Extract the data I want from the file
+place_id = json_file['results'][0]['place_id'] #Get in the list'results' and check the 'place_id value'
+print(place_id)

@@ -18,7 +18,7 @@ for line in file:
         time_split = line_split[5].split(':') #splitting the hour/minutes/seconds directly
         dictionary[time_split[0]] = dictionary.get(time_split[0], 0) + 1 #taking only the hour value and adding it
 
-# #Those two lines will do the same as the code below them, its a little more complex to understand but cleaner (using this I also can remove the list from the code)
+# #Those two lines will do the same as the code below them, its a little more complex to read, but cleaner (using this I also can remove the list from the code)
 # for k,v in sorted(dictionary.items()):
 #     print(k,v)
 

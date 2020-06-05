@@ -18,7 +18,7 @@ for line in file:
         #email = line_split[1]
         #dictionary[email] = dictionary.get(email, 0) + 1
         dictionary[line.split()[1]] = dictionary.get(line.split()[1], 0) + 1
-
+#print(dictionary)
 count = None
 email = None
 for k,v in dictionary.items():
