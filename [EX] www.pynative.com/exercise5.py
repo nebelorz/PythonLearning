@@ -1,0 +1,25 @@
+# Question 5: Given a list of numbers, return True if first and last number of a list is same
+
+
+def same_numbers():
+    print('Given list is:', list_of_numbers)
+    if list_of_numbers[0] == list_of_numbers[-1]:
+        return True
+    else:
+        return False
+
+list_of_numbers = list()
+print('''Enter numbers, when you're done write 'done'.\n''')
+while True:
+    inp = input('Enter numbers: ')
+    if inp == 'done':
+        break
+    try:
+        number = int(inp)
+        list_of_numbers.append(number)
+        continue
+    except:
+        print('You entered a wrong character, please use only numbers.')
+        continue
+
+print('Result is:', same_numbers())
