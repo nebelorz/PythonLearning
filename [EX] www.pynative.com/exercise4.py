@@ -4,7 +4,6 @@ def removeChars(str, chars):
     print(str[chars:])
 
 str = 'pynative'
-
 while True:
     chars = input('How many characters to be removed: ')
     try:
