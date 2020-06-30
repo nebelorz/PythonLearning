@@ -1,5 +1,4 @@
 # Question 5: Given a list of numbers, return True if first and last number of a list is same
-import time
 
 def same_numbers(list):
     print('Given list is:', list)
